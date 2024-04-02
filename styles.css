@@ -1,0 +1,71 @@
+/* CSS for initial chevron position */
+.accordion-icon {
+    transition: transform 0.3s ease-in-out;
+    transform: rotate(90deg); /* Initially pointing right */
+}
+
+.collapsed .accordion-icon {
+    transform: rotate(0deg); /* Rotated when collapsed, pointing down */
+}
+
+/* CSS to add space between text and icon */
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+.btn .accordion-icon {
+    margin-left: auto; /* Pushes the icon to the right */
+}
+
+.custom-bg-color {
+    background-color: #305676;
+}
+
+.custom-bg-color1 {
+    background-color: #25455f;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none; /* Removes the underline */
+    color: inherit; /* Inherits the color from its parent */
+    cursor: pointer; /* Displays the default cursor */
+}
+
+#sidebar {
+    height: 100%;
+    overflow-y: auto;
+    text-align: left; /* Align sidebar content to the left */
+}
+
+#main-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+/* ... other styles ... */
+
+/* CSS for sidebar items */
+.sidebar-item {
+    margin-left: 10px; /* Add some space between the collapse symbol and the text */
+}
+
+
+.custom-nav-color {
+    background-color: rgb(59, 58, 58);
+}
+
+.sidebar-content {
+    padding-left: 1px; /* Adjust padding as needed */
+}
+h2{
+    font-size: 15px;
+}
+pre {
+    text-align: left;
+    white-space: pre-wrap;
+}
